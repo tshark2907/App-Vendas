@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Nova venda</title>
+        <link rel="stylesheet" href="/style.css">
+    </head>
+    <body>
+        <div id="header">
+            <a>Voltar</a>
+            <form>
+                <input id="search-bar" type="text" placeholder="Pesquisar items">
+            </form>
+        </div>
+        <div class="items-area">
+            <div class="item-box">
+                <div class="item-info">
+                    <h3 id="prod-name">Nome do produto</h3>
+                    <p id="prod-code">Codigo do produto</p>
+                    <p id="quantity">Quantidade</p>
+                    <p id="price">Preço</p>
+                </div>
+                <div class="item-interact">
+                    <button class="button-s" id="add">Adcionar</button>
+                    <button class="button-s" id="subtr">Subtrair</button>
+                    <button class="button-s" id="del">Excluir</button>
+                    <button class="button-s" id="edit">Editar</button>
+                </div>
+            </div>
+        </div>
+        <button id="finalize">Total <span class="total-price">%%</span>R$ - Finalizar Venda</button>
+    </body>
+</html>
