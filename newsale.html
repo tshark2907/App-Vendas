@@ -6,7 +6,7 @@
     </head>
     <body>
         <div id="header">
-            <a>Voltar</a>
+            <a class="button-s">Voltar</a>
             <form>
                 <input id="search-bar" type="text" placeholder="Pesquisar items">
             </form>
@@ -14,16 +14,20 @@
         <div class="items-area">
             <div class="item-box">
                 <div class="item-info">
-                    <h3 id="prod-name">Nome do produto</h3>
-                    <p id="prod-code">Codigo do produto</p>
-                    <p id="quantity">Quantidade</p>
-                    <p id="price">Preço</p>
+                    <p class="info" id="prod-name">Nome do produto</p>
+                    <p class="info" id="prod-code">Codigo do produto</p>
+                    <p class="info" id="quantity">Quantidade</p>
+                    <p class="info" id="price">Preço</p>
                 </div>
                 <div class="item-interact">
-                    <button class="button-s" id="add">Adcionar</button>
-                    <button class="button-s" id="subtr">Subtrair</button>
-                    <button class="button-s" id="del">Excluir</button>
-                    <button class="button-s" id="edit">Editar</button>
+                    <div class="separar">
+                        <button class="button-s" id="add">Adcionar</button>
+                        <button class="button-s" id="subtr">Subtrair</button>
+                    </div>
+                    <div class="separar">
+                        <button class="button-s" id="del">Excluir</button>
+                        <button class="button-s" id="edit">Editar</button>
+                    </div>
                 </div>
             </div>
         </div>
